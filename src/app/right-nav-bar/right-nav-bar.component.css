@@ -1,0 +1,16 @@
+.rightNavbar
+{
+    background-color: #002554;
+  
+}
+.rightNavbar button
+{
+    width: 69%;
+    margin-top: 50px;
+    padding: 5px 0px 5px 0px;
+    gap: 18px;
+    background: linear-gradient(0deg, #083369, #083369),
+    linear-gradient(0deg, #E9F3FF, #E9F3FF);
+    margin-right:auto ;
+
+}
