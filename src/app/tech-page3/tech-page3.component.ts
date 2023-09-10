@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tech-page3.component.css']
 })
 export class TechPage3Component implements OnInit {
-
+  trFlag:boolean = false
   constructor() { }
 
   ngOnInit(): void {

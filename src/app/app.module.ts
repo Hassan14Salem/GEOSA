@@ -16,6 +16,12 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { TechPage1Component } from './tech-page1/tech-page1.component';
 import { TechProcessActionComponent } from './tech-process-action/tech-process-action.component';
 import { TechPage3Component } from './tech-page3/tech-page3.component';
+import { MangerOfTechComponent } from './manger-of-tech/manger-of-tech.component';
+import { MangerOfTechP02Component } from './manger-of-tech-p02/manger-of-tech-p02.component';
+import { GISP01Component } from './gisp01/gisp01.component';
+import { GISP02Component } from './gisp02/gisp02.component';
+import { GISP03Component } from './gisp03/gisp03.component';
+import { GISP04Component } from './gisp04/gisp04.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { TechPage3Component } from './tech-page3/tech-page3.component';
     NotFoundComponent,
     TechPage1Component,
     TechProcessActionComponent,
-    TechPage3Component
+    TechPage3Component,
+    MangerOfTechComponent,
+    MangerOfTechP02Component,
+    GISP01Component,
+    GISP02Component,
+    GISP03Component,
+    GISP04Component
   ],
   imports: [
     BrowserModule,

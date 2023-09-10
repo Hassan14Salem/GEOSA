@@ -12,6 +12,12 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { TechPage1Component } from './tech-page1/tech-page1.component';
 import { TechProcessActionComponent } from './tech-process-action/tech-process-action.component';
 import { TechPage3Component } from './tech-page3/tech-page3.component';
+import { MangerOfTechComponent } from './manger-of-tech/manger-of-tech.component';
+import { MangerOfTechP02Component } from './manger-of-tech-p02/manger-of-tech-p02.component';
+import { GISP01Component } from './gisp01/gisp01.component';
+import { GISP02Component } from './gisp02/gisp02.component';
+import { GISP03Component } from './gisp03/gisp03.component';
+import { GISP04Component } from './gisp04/gisp04.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent,pathMatch:"full"},
@@ -26,6 +32,13 @@ const routes: Routes = [
   {path:"technical",component:TechPage1Component},
   {path:"tech-process-action",component:TechProcessActionComponent},
   {path:"tech-page3",component:TechPage3Component},
+  {path:"managerOfTech",component:MangerOfTechComponent},
+  {path:"ManagerP02",component:MangerOfTechP02Component},
+  {path:"GISP01",component:GISP01Component},
+  {path:"GISP02",component:GISP02Component},
+  {path:"GISP03",component:GISP03Component},
+  {path:"GISP04",component:GISP04Component},
+
 
 
 

@@ -70,15 +70,20 @@ justify-content: center;
     margin: 50px 35px;
     padding: 20px 0px;
 }
+.sectionOfTableII
+{
+    width: 50%;
+    margin: 50px 35px;
+    padding: 20px 0px;
+}
 
 .tableOfFiles
 {
     padding: 20px 0px;
  
     border-bottom: 3px solid rgba(80, 80, 80, 0.10);
-background: #FFF !important;
+background: #FFF;
 box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
-
 
 }
 .filesHeading
@@ -349,15 +354,18 @@ line-height: normal;
 }
 .filteration
 {
+
+    position: absolute; 
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50% , -50%);
 width: 400px;
     border-radius: 5px;
 border-bottom: 3px solid rgba(80, 80, 80, 0.10);
 background: #FFF;
 box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
-position: absolute;
-top: 20%;
-right: 40%;
-left: 50%;
 /* transform: translate(-50%,-50%); */
 }
 .filterationHeading
@@ -384,12 +392,12 @@ flex-shrink: 0;
 .filterationData
 {
     color: var(--light-primary-darkblue-cour, #004D71);
-text-align: right;
-font-family: Noto Kufi Arabic;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: right;
+    font-family: Noto Kufi Arabic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
@@ -467,12 +475,24 @@ margin: 10px;
 
     background-position: left 0.75rem center !important;
     padding: 12px 16px !important;
-    color: var(--darkblue-2, #BFD3DC);
+    color: var(--darkblue-2, #80A6B8);
     text-align: right;
     font-family: Noto Kufi Arabic;
     font-size: 14px !important;
     font-style: normal;
     font-weight: 500;
+    border-radius: 8px;
+    border: 1px solid var(--darkblue-2, #BFD3DC);
+    /* background: rgba(66, 83, 92, 0.05); */
+    background-color: #fff;
+}
+.transActionInputs::placeholder
+{
+    
+
+   
+    color: var(--darkblue-2, #80A6B8);
+   
 }
 .transActionInputsII
 {
@@ -551,4 +571,46 @@ cursor: pointer;
 {
     border: 2px   !important;
     border-style: dashed !important;
+}
+.point
+{
+    cursor: pointer;
+}
+.cancel
+{
+    color: var(--light-primary-darkblue-cour, #004D71);
+font-family: Noto Kufi Arabic;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+background: none;
+}
+.headOfInputs
+{
+    border-bottom: 3px solid rgba(80, 80, 80, 0.10);
+    background: #FFF;
+}
+.modal-header .btn-close {
+    padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
+    margin-left: 0 !important;
+}
+
+.save
+{
+    margin: 10px;
+padding: 12px 40px;
+    color: #FFF;
+text-align: center;
+font-family: FF Shamel Family;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #002554;
+}
+.modal-footer
+{
+    border-top: none !important;
 }
