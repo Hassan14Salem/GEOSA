@@ -22,6 +22,9 @@ import { GISP01Component } from './gisp01/gisp01.component';
 import { GISP02Component } from './gisp02/gisp02.component';
 import { GISP03Component } from './gisp03/gisp03.component';
 import { GISP04Component } from './gisp04/gisp04.component';
+import { ManagerOfGISP01Component } from './manager-of-gisp01/manager-of-gisp01.component';
+import { ManagerOfGISP02Component } from './manager-of-gisp02/manager-of-gisp02.component';
+import { ManagerOfGISP03Component } from './manager-of-gisp03/manager-of-gisp03.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { GISP04Component } from './gisp04/gisp04.component';
     GISP01Component,
     GISP02Component,
     GISP03Component,
-    GISP04Component
+    GISP04Component,
+    ManagerOfGISP01Component,
+    ManagerOfGISP02Component,
+    ManagerOfGISP03Component
   ],
   imports: [
     BrowserModule,

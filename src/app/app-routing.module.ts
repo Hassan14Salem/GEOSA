@@ -18,6 +18,9 @@ import { GISP01Component } from './gisp01/gisp01.component';
 import { GISP02Component } from './gisp02/gisp02.component';
 import { GISP03Component } from './gisp03/gisp03.component';
 import { GISP04Component } from './gisp04/gisp04.component';
+import { ManagerOfGISP01Component } from './manager-of-gisp01/manager-of-gisp01.component';
+import { ManagerOfGISP02Component } from './manager-of-gisp02/manager-of-gisp02.component';
+import { ManagerOfGISP03Component } from './manager-of-gisp03/manager-of-gisp03.component';
 
 const routes: Routes = [
   {path:"",component:HomeComponent,pathMatch:"full"},
@@ -38,6 +41,11 @@ const routes: Routes = [
   {path:"GISP02",component:GISP02Component},
   {path:"GISP03",component:GISP03Component},
   {path:"GISP04",component:GISP04Component},
+
+  {path:"managerGISP01",component:ManagerOfGISP01Component},
+  {path:"managerGISP01",component:ManagerOfGISP02Component},
+  {path:"managerGISP01",component:ManagerOfGISP03Component},
+
 
 
 
